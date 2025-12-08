@@ -30,17 +30,6 @@
 
 ---
 
-## 📦 Environment Overview
-
-| 项目 | 内容 |
-|----|------|
-| 本地设备 | Windows / macOS 均可（需运行 Clash for Windows / ClashX） |
-| 服务器 | Linux 系统，具有 SSH 登录权限 |
-| 代理方式 | Socks5 via Clash |
-| 核心原理 | SSH 远程端口转发 `-R` |
-
----
-
 # 🔧 Step 1：确认本地 Clash 的代理端口
 
 打开 **Clash for Windows / ClashX**，进入：
