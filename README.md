@@ -43,7 +43,7 @@
 | Clash for Windows | `127.0.0.1:7890` |
 | Clash Verge | `127.0.0.1:7897` |
 
-# 🔗 Step 2：本地session建立 SSH “远程端口转发”
+# 🔗 Step 2：本地session建立 SSH 远程端口转发
 
 ```bash
 ssh -R 1080:127.0.0.1:7890 username@server_ip
