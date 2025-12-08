@@ -1,11 +1,17 @@
-# 🛰️ Linux 服务器外网代理配置（SSH + Clash 端口转发方案）
+<h1 align="center">🛰️ Linux 服务器外网代理配置（SSH + Clash 端口转发方案）</h1>
 
-—— 2025.12.8
+<p align="center">
+  <i> —— 2025.12.8</i>
+</p>
 
-![SSH](https://img.shields.io/badge/SSH-Remote%20Forwarding-blue?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-Linux-green?style=flat-square)
-![Proxy](https://img.shields.io/badge/Proxy-Clash-orange?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SSH-Remote%20Forwarding-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Platform-Linux-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Proxy-Clash-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square" />
+</p>
 
 ---
 
