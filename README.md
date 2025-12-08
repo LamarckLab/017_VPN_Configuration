@@ -53,3 +53,20 @@ ssh -R 1080:127.0.0.1:7890 username@server_ip
 ```bash
 ssh -R 1080:127.0.0.1:7890 amax@192.168.208.236
 ```
+
+# 🛠 Step 3：在服务器端设置代理
+
+方式 A：仅 git 使用代理
+```bash
+git config --global http.proxy  "socks5h://127.0.0.1:1080"
+git config --global https.proxy "socks5h://127.0.0.1:1080"
+```
+
+方式 B：让所有程序走代理
+```bash
+export http_proxy="socks5h://127.0.0.1:1080"
+export https_proxy="socks5h://127.0.0.1:1080"
+export ALL_PROXY="socks5h://127.0.0.1:1080"
+```
+
+
