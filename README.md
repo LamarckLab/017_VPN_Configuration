@@ -32,19 +32,16 @@
 
 # 🔧 Step 1：确认本地 Clash 的代理端口
 
-打开 **Clash for Windows / ClashX**，进入：
+打开 **Clash for Windows / Clash Verge 等相关代理软件**，进入：
 
-**Settings → General → 代理端口（Proxy Ports）**
+**Settings → General → Proxy Ports**
 
-一般配置如下：
+默认配置如下：
 
-| 类型 | 默认端口 |
+| 代理软件 | 默认端口 |
 |------|---------|
-| HTTP Proxy | `127.0.0.1:7890` |
-| Socks Proxy | `127.0.0.1:7891` 或 `7890` |
+| Clash for Windows | `127.0.0.1:7890` |
+| Clash Verge | `127.0.0.1:7897` |
 
-👉 **推荐使用 Socks 端口（例如 7890）**
-
-如果你本地的 Socks 端口不是 7890，请在后续命令中替换成你自己的端口。
 
 ---
